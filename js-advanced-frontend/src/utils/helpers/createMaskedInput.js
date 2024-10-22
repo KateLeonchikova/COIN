@@ -7,6 +7,7 @@ export function createMaskedInput(element) {
     thousandsSeparator: ' ',
     radix: '.',
     mapToRadix: [','],
+    min: 0,
   };
 
   const mask = IMask(element, maskOptions);
